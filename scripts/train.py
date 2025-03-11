@@ -26,7 +26,7 @@ def load_data():
     scaler = StandardScaler()
     data[numeric_columns] = scaler.fit_transform(data[numeric_columns])
 
-    return data.drop("churn", axis=1), data["churn"], label_encoders, scaler
+    return data.drop("Churn", axis=1), data["Churn"], label_encoders, scaler
 
 def train_model(X_train, y_train):
     """Entrenar modelo."""

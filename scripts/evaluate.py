@@ -50,8 +50,8 @@ def main():
     scaler = joblib.load("scaler.pkl")                # Cargar StandardScaler
 
     # Preprocesar datos
-    X_test = preprocess_data(data.drop("churn", axis=1), label_encoders, scaler)
-    y_test = data["churn"]
+    X_test = preprocess_data(data.drop("Churn", axis=1), label_encoders, scaler)
+    y_test = data["Churn"]
 
     # Cargar el modelo entrenado
     model = mlflow.sklearn.load_model("runs:/<run_id>/model")  # Reemplaza <run_id> con el ID de la ejecución
