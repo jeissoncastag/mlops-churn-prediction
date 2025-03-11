@@ -1,0 +1,13 @@
+boto3
+pandas
+polars
+joblib
+scikit-learn
+xgboost
+catboost
+optuna
+matplotlib
+seaborn
+pyarrow
+numpy
+mlflow

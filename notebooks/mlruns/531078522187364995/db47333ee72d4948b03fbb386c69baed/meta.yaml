@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/jeisson.castano_prag/Documents/mlops-churn-prediction/notebooks/mlruns/531078522187364995/db47333ee72d4948b03fbb386c69baed/artifacts
+end_time: 1741305736345
+entry_point_name: ''
+experiment_id: '531078522187364995'
+lifecycle_stage: active
+run_id: db47333ee72d4948b03fbb386c69baed
+run_name: salty-smelt-562
+run_uuid: db47333ee72d4948b03fbb386c69baed
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741305727079
+status: 3
+tags: []
+user_id: jeisson.castano_prag

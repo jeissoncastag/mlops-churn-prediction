@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/jeisson.castano_prag/Documents/mlops-churn-prediction/notebooks/mlruns/531078522187364995/495a5ecdc287435d824844cdf72ff526/artifacts
+end_time: 1741657665239
+entry_point_name: ''
+experiment_id: '531078522187364995'
+lifecycle_stage: active
+run_id: 495a5ecdc287435d824844cdf72ff526
+run_name: adorable-cub-254
+run_uuid: 495a5ecdc287435d824844cdf72ff526
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741657627237
+status: 3
+tags: []
+user_id: jeisson.castano_prag

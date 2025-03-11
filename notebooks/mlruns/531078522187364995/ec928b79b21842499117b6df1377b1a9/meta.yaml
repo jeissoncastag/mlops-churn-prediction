@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/jeisson.castano_prag/Documents/mlops-churn-prediction/notebooks/mlruns/531078522187364995/ec928b79b21842499117b6df1377b1a9/artifacts
+end_time: 1741304945962
+entry_point_name: ''
+experiment_id: '531078522187364995'
+lifecycle_stage: active
+run_id: ec928b79b21842499117b6df1377b1a9
+run_name: funny-hen-656
+run_uuid: ec928b79b21842499117b6df1377b1a9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741304932649
+status: 3
+tags: []
+user_id: jeisson.castano_prag
