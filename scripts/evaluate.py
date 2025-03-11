@@ -2,11 +2,14 @@ import mlflow
 import pandas as pd
 from sklearn.metrics import accuracy_score, f1_score, precision_score, recall_score
 from sklearn.preprocessing import LabelEncoder, StandardScaler
-import joblib  # Para cargar los preprocesadores
+import joblib  
+import os
 
 def load_data():
     """Cargar datos de prueba."""
-    data = pd.read_csv("../data/churn_data_test.csv")  # Datos de prueba
+    current_dir = os.path.dirname(os.path.abspath(__file__))  # Directorio del script
+    data_path = os.path.abspath(os.path.join(current_dir, "..", "data", "churn_data_test.csv"))  # Ruta al archivo de datos
+    data = pd.read_csv(data_path)
     return data
 
 def preprocess_data(data, label_encoders, scaler):
