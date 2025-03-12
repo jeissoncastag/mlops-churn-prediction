@@ -26,19 +26,23 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      # Paso 4: Entrenar el modelo
+      # Paso 4: Iniciar MLflow en segundo plano
+      - name: Start MLflow Server
+        run: |
+          mlflow server --backend-store-uri sqlite:///mlflow.db --host 0.0.0.0 --port 5000 &
+      
+      # Paso 5: Esperar a que MLflow esté activo
+      - name: Wait for MLflow Server
+        run: sleep 10
+
+      # Paso 6: Entrenar el modelo
       - name: Run training script
-        run: |
-          python scripts/train.py
+        env:
+          MLFLOW_TRACKING_URI: http://127.0.0.1:5000
+        run: python scripts/train.py
 
-      # Paso 5: Evaluar el modelo
+      # Paso 7: Evaluar el modelo
       - name: Run evaluation script
-        run: |
-          python scripts/evaluate.py
-
-      # Paso 6: Subir artefactos (opcional)
-      - name: Upload MLflow artifacts
-        uses: actions/upload-artifact@v2
-        with:
-          name: mlruns
-          path: mlruns/
+        env:
+          MLFLOW_TRACKING_URI: http://127.0.0.1:5000
+        run: python scripts/evaluate.py
