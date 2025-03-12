@@ -39,7 +39,6 @@ def evaluate_model(model, X_test, y_test):
 
 def main():
     # Configurar el tracking URI de MLflow
-    mlflow.set_tracking_uri("http://127.0.0.1:5000")  # URL del servidor de MLflow
     mlflow.set_experiment("Churn Prediction - Evaluation")  # Nombre del experimento
 
     # Cargar datos de prueba

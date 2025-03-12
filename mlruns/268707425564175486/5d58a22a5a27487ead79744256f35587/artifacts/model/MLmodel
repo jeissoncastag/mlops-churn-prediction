@@ -1,0 +1,46 @@
+artifact_path: model
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.10.10
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.6.1
+is_signature_from_type_hint: false
+mlflow_version: 2.20.3
+model_size_bytes: 14937340
+model_uuid: 759044eee3134c9f92d7de4687d50cf8
+run_id: 5d58a22a5a27487ead79744256f35587
+saved_input_example_info:
+  artifact_path: input_example.json
+  pandas_orient: split
+  serving_input_path: serving_input_example.json
+  type: dataframe
+signature:
+  inputs: '[{"type": "integer", "name": "customerID", "required": true}, {"type":
+    "integer", "name": "gender", "required": true}, {"type": "double", "name": "SeniorCitizen",
+    "required": true}, {"type": "integer", "name": "Partner", "required": true}, {"type":
+    "integer", "name": "Dependents", "required": true}, {"type": "double", "name":
+    "tenure", "required": true}, {"type": "integer", "name": "PhoneService", "required":
+    true}, {"type": "integer", "name": "MultipleLines", "required": true}, {"type":
+    "integer", "name": "InternetService", "required": true}, {"type": "integer", "name":
+    "OnlineSecurity", "required": true}, {"type": "integer", "name": "OnlineBackup",
+    "required": true}, {"type": "integer", "name": "DeviceProtection", "required":
+    true}, {"type": "integer", "name": "TechSupport", "required": true}, {"type":
+    "integer", "name": "StreamingTV", "required": true}, {"type": "integer", "name":
+    "StreamingMovies", "required": true}, {"type": "integer", "name": "Contract",
+    "required": true}, {"type": "integer", "name": "PaperlessBilling", "required":
+    true}, {"type": "integer", "name": "PaymentMethod", "required": true}, {"type":
+    "double", "name": "MonthlyCharges", "required": true}, {"type": "integer", "name":
+    "TotalCharges", "required": true}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "int32", "shape": [-1]}}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2025-03-12 04:36:04.205556'

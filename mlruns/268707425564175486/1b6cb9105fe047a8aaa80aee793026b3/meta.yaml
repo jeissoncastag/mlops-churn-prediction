@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/jeisson.castano_prag/Documents/mlops-churn-prediction/mlruns/268707425564175486/1b6cb9105fe047a8aaa80aee793026b3/artifacts
+end_time: 1741755160252
+entry_point_name: ''
+experiment_id: '268707425564175486'
+lifecycle_stage: active
+run_id: 1b6cb9105fe047a8aaa80aee793026b3
+run_name: bustling-crow-846
+run_uuid: 1b6cb9105fe047a8aaa80aee793026b3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741755149604
+status: 3
+tags: []
+user_id: jeisson.castano_prag

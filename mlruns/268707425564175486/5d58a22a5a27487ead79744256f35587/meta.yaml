@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/jeisson.castano_prag/Documents/mlops-churn-prediction/mlruns/268707425564175486/5d58a22a5a27487ead79744256f35587/artifacts
+end_time: 1741754174212
+entry_point_name: ''
+experiment_id: '268707425564175486'
+lifecycle_stage: active
+run_id: 5d58a22a5a27487ead79744256f35587
+run_name: hilarious-cod-404
+run_uuid: 5d58a22a5a27487ead79744256f35587
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741754163142
+status: 3
+tags: []
+user_id: jeisson.castano_prag

@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/jeisson.castano_prag/Documents/mlops-churn-prediction/mlruns/268707425564175486/4db130550ae341a680e86f96cb652027/artifacts
+deleted_time: 1741755481348
+end_time: 1741754939163
+entry_point_name: ''
+experiment_id: '268707425564175486'
+lifecycle_stage: deleted
+run_id: 4db130550ae341a680e86f96cb652027
+run_name: respected-whale-532
+run_uuid: 4db130550ae341a680e86f96cb652027
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741754939080
+status: 4
+tags: []
+user_id: jeisson.castano_prag
